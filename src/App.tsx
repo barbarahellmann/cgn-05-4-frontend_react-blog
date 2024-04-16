@@ -29,6 +29,7 @@ function App() {
 
 export default App
 
+
 function BlogHeadline() {
     return <h1> Bielefeld gibt es nicht </h1>
 }
