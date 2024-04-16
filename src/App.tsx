@@ -3,23 +3,27 @@ import './App.css'
 function App() {
 
     return (
-        <>
-            <div>
-                <Kopfteil/>
-            </div>
-            <div>
-                <Secction1/>
-            </div>
-            <div>
-                <Section2Title/>
-                <Section2Text/>
-            </div>
-        </>
+      <Blog/>
     )
 }
 
 
 export default App
+
+function Blog() {
+    return   <>
+        <div>
+            <Kopfteil/>
+        </div>
+        <div>
+            <Secction1/>
+        </div>
+        <div>
+            <Section2Title/>
+            <Section2Text/>
+        </div>
+    </>
+}
 
 
 function Kopfteil() {
