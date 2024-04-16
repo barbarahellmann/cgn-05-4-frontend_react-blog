@@ -4,14 +4,8 @@ function App() {
 
     return (
         <>
-            <div>
-                <main>
-                    <BlogHeadline/>
-                    <MainH2/>
-                    <MainH3/>
-                    <MainText/>
-                </main>
-            </div>
+            <Kopfteil/>
+
             <div>
                 <Section1Title/>
                 <Section1Text/>
@@ -30,29 +24,23 @@ function App() {
 export default App
 
 
-function BlogHeadline() {
-    return <h1> Bielefeld gibt es nicht </h1>
-}
-
-function MainH2() {
-    return <h2>Eine Million für den Beweis</h2>
-}
-
-function MainH3() {
-    return <h3> Die Stadt Bielefeld hat ein Problem: Es soll sie gar nicht geben. So zumindest besagt es die
+function Kopfteil() {
+    return <>
+        <h1> Bielefeld gibt es nicht </h1>
+        <h2>Eine Million für den Beweis</h2>
+        <h3> Die Stadt Bielefeld hat ein Problem: Es soll sie gar nicht geben. So zumindest besagt es die
         Bielefeld-Verschwörung. Wer nun einen Beweis dafür liefere, dem winken eine Million Euro. </h3>
-}
-
-function MainText() {
-    return <p>
+        <p>
         „Bielefeld gibt es doch gar nicht.“ Dieser Witz hat seinen Ursprung vor 25 Jahren. Damals hatte
         sich der Informatikstudent Achim Held die Bielefeld-Verschwörungstheorie ausgedacht –
         eigentlich, um sich über Verschwörungstheorien lustig zu machen.
         Bielefeld will Schluss machen mit dieser „Verschwörungstheorie“. Zwei Wochen lang kann jeder
         versuchen zu beweisen, dass es die Stadt nicht gibt. Wer das schafft, soll ein Preisgeld von
         einer Million Euro bekommen.
-    </p>
+        </p>
+        </>
 }
+
 
 function Section1Title() {
     return <h3> Bielefelder sind genervt</h3>
