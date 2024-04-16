@@ -4,13 +4,11 @@ function App() {
 
     return (
         <>
-            <Kopfteil/>
-
             <div>
-                <Section1Title/>
-                <Section1Text/>
-                <Section1Img/>
-                <Section1Text2/>
+                <Kopfteil/>
+            </div>
+            <div>
+                <Secction1/>
             </div>
             <div>
                 <Section2Title/>
@@ -42,31 +40,24 @@ function Kopfteil() {
 }
 
 
-function Section1Title() {
-    return <h3> Bielefelder sind genervt</h3>
-}
-
-function Section1Text() {
-    return <p> Dazu gibt es auch nun eine offizielle Internetseite. Ins Netz gestellt wurde sie von der
-        Bielefeld-Marketing GmbH. Deren Geschäftsführer Martin Knabenreich erklärt im Deutschlandfunk
-        Kultur, dass viele Bielefelder von dem „Witz“ fürchterlich genervt seien. Denn selbst in den USA
-        würden sie darauf angesprochen. Dies sei schon etwas einmaliges, räumt Knabenreich ein und sieht
-        trotzdem die positive Seite: „Das ist eine schöne Einladung, über die Stadt zu erzählen.“</p>
-}
-
-function Section1Img() {
-return <img
-    src="https://bilder.deutschlandfunk.de/FI/LE/_a/49/FILE_a49e3968f5ec04092cc46264070697ce/37394023-jpg-100-1280xauto.jpg"
-    alt="Achim Held, Erfinder der Bielefeld-Verschwörung"/>
-}
-
-function Section1Text2() {
-    return <p>Doch nun wolle die Stadt den Spieß umdrehen – und selbst Spaß mit der Verschwörung haben, erläutert
-        Knabenreich. Seit Mittwoch ist die Internetseite online und bereits mehrere hundert „Versuche“ –
-        unter anderem mathematische, philosophische, physische und auch juristische Beweisführungen –
-        eingetroffen.
-        „Ich persönlich bin mit zu hundert Prozent sicher, dass das keinen Bestand haben wird. Denn wir
-        haben auch gesagt, dass das wissenschaftlich bewiesen wird – und auch unwiderruflich.“</p>
+function Secction1() {
+    return <>
+        <h3> Bielefelder sind genervt</h3>
+        <p> Dazu gibt es auch nun eine offizielle Internetseite. Ins Netz gestellt wurde sie von der
+            Bielefeld-Marketing GmbH. Deren Geschäftsführer Martin Knabenreich erklärt im Deutschlandfunk
+            Kultur, dass viele Bielefelder von dem „Witz“ fürchterlich genervt seien. Denn selbst in den USA
+            würden sie darauf angesprochen. Dies sei schon etwas einmaliges, räumt Knabenreich ein und sieht
+            trotzdem die positive Seite: „Das ist eine schöne Einladung, über die Stadt zu erzählen.“</p>
+        <img
+            src="https://bilder.deutschlandfunk.de/FI/LE/_a/49/FILE_a49e3968f5ec04092cc46264070697ce/37394023-jpg-100-1280xauto.jpg"
+            alt="Achim Held, Erfinder der Bielefeld-Verschwörung"/>
+        <p>Doch nun wolle die Stadt den Spieß umdrehen – und selbst Spaß mit der Verschwörung haben, erläutert
+            Knabenreich. Seit Mittwoch ist die Internetseite online und bereits mehrere hundert „Versuche“ –
+            unter anderem mathematische, philosophische, physische und auch juristische Beweisführungen –
+            eingetroffen.
+            „Ich persönlich bin mit zu hundert Prozent sicher, dass das keinen Bestand haben wird. Denn wir
+            haben auch gesagt, dass das wissenschaftlich bewiesen wird – und auch unwiderruflich.“</p>
+    </>
 }
 
 function Section2Title() {
