@@ -51,7 +51,7 @@ function Secction1() {
         <img
             src="https://bilder.deutschlandfunk.de/FI/LE/_a/49/FILE_a49e3968f5ec04092cc46264070697ce/37394023-jpg-100-1280xauto.jpg"
             alt="Achim Held, Erfinder der Bielefeld-Verschwörung"/>
-        <p>Doch nun wolle die Stadt den Spieß umdrehen – und selbst Spaß mit der Verschwörung haben, erläutert
+        <p> Doch nun wolle die Stadt den Spieß umdrehen – und selbst Spaß mit der Verschwörung haben, erläutert
             Knabenreich. Seit Mittwoch ist die Internetseite online und bereits mehrere hundert „Versuche“ –
             unter anderem mathematische, philosophische, physische und auch juristische Beweisführungen –
             eingetroffen.
